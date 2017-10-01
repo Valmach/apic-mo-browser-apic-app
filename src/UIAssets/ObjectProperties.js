@@ -10,20 +10,24 @@ class ObjectProperties
 
     constructor()
     {
+        this.grabMargin = 10;
+        this.bDragging = false;
+        this.bMousedown = false;
         this.createDialogBase()
         this.setupObjPropWinDrag()
 
-         // Dialog Title
-         d3.select("#obj-prop-title").text("Properties");
-         
-         // Dialog Body
-         d3.select("#obj-prop-body").selectAll('*').remove();  // cleanup from last display of data
-         var dBody = d3.select("#obj-prop-body") // is a div
-         
-         // append a new main containing div
-         var dData = dBody.append("div").style("overflow", "none").style("display", "block");
+        
+        // Dialog Title
+        d3.select("#obj-prop-title").text("Properties");
+        
+        // Dialog Body
+        d3.select("#obj-prop-body").selectAll('*').remove();  // cleanup from last display of data
+        var dBody = d3.select("#obj-prop-body") // is a div
+        
+        // append a new main containing div
+        var dData = dBody.append("div").style("overflow", "none").style("display", "block");
 
-         d3.select("#obj-prop-content").style("height", (window.innerHeight*0.60) + "px")
+        d3.select("#obj-prop-content").style("height", (window.innerHeight*0.60) + "px")
     }
 
 
@@ -35,6 +39,7 @@ class ObjectProperties
         .append("div")
             .attr("id", "obj-prop-content")
             .classed("obj-prop-content", true)
+            
 
 
             /**** Header ****/
@@ -79,6 +84,14 @@ class ObjectProperties
             .select(function(){return this.parentNode;}) // div -> content
             .append("div")
                 .attr("id", "obj-prop-footer")
+                .call(d3.drag()
+                    .on("start", this.dragstarted.bind(this))
+                    .on("drag", this.dragging.bind(this))
+                    .on("end", this.dragended.bind(this)))
+                .on("mousemove", this.mousemove.bind(this))
+                //.on("mousedown", this.mousedown.bind(this))
+                //.on("mouseup",   this.mouseup.bind(this))
+
                 .classed("obj-prop-footer", true)
                 .append("text")
                     .text("");
@@ -153,6 +166,7 @@ class ObjectProperties
         tr.append("td").classed("obj-prop-value", true)
                             .append("a")
                             .attr("href", "https://pubhub-prod.s3-us-west-2.amazonaws.com/media/apic-mim-ref/docs/MO-" + node.absclassname + ".html")
+                            .attr("title", "ctrl-click")
                             .attr("target", "_blank")
                             .html(node.absclassname);
      
@@ -179,6 +193,54 @@ class ObjectProperties
             .style("visibility", (bNodePropShown ? "visible" : "hidden"))
     }
 
+
+    mousemove()
+    {
+        var nDiv = d3.select("div#obj-prop-footer").node();
+        var width = parseInt(d3.select("div#obj-prop-footer").style("width"));
+        var height = parseInt(d3.select("div#obj-prop-footer").style("height"));
+
+        if(//(d3.mouse(nDiv)[0] > width-this.grabMargin) && (d3.mouse(nDiv)[0] < width+this.grabMargin) &&
+           (d3.mouse(nDiv)[1] > height-this.grabMargin)&& (d3.mouse(nDiv)[1] < height+this.grabMargin)) 
+        {
+            d3.select("div#obj-prop-footer").style("cursor", "ns-resize");
+        }
+        else
+        {
+            d3.select("div#obj-prop-footer").style("cursor", "default");
+        }
+    }
+
+
+    dragstarted()
+    {
+
+    }
+
+    dragended()
+    {
+
+    }
+
+    dragging()
+    {
+        var nDiv = d3.select("div#obj-prop-content").node();
+        var g = d3.select("body").node();
+        console.log("ondrag x,y= ", d3.mouse(g)[0]);
+
+        var prop = d3.select("div#obj-prop-content").node();
+        var r = prop.getBoundingClientRect();
+
+        // get top, left of prop box in global co-ords
+        var top = r.y;
+        var left = r.x;
+        // get mouse pos in global and use global top, left - global mouse x,y = prop width,height
+        height = Math.max(d3.mouse(g)[1] - top, 100);
+        width = Math.max(d3.mouse(g)[0] - left, 300);
+
+        d3.select("div#obj-prop-content").style("height", 2+height+'px');
+       // d3.select("div#obj-prop-content").style("width", width+'px');
+    }
 
 } // class ObjectProperties
 
