@@ -367,7 +367,7 @@ function showNodeProperties(node)
 
 function getUserCredentials()
 {
-    apicLoginCred.getUserCredentials();
+    //apicLoginCred.getUserCredentials();
 }
 
 function updateScale()
@@ -389,43 +389,21 @@ function zoomFit2()
     // (all elements contained in <svg>, gets applied to all direct children)
     var rootsvg = d3.select("svg#msvg");
     var tformsvg = d3.zoomTransform(rootsvg.node());
-    //console.log("rootsvg Current T-Form Values (x,y,k)", tformsvg);
 
     // get root <g> h w
     var Gwidth = bounds.width;                               // <g> width
     var Gheight = bounds.height;                             // <g> height
 
-    //console.log("<g> real w h :", (Gwidth/tformsvg.k), (Gheight/tformsvg.k) );
-    //console.log("Gheight (scaled)", Gheight);
-    
-
-    //SVGfullHeight = window.innerHeight;
-    //console.log("SVGfullHeight", SVGfullHeight);
-
-
     //var scale =   Gheight / SVGfullHeight;
-    var scale =   (SVGfullHeight / (Gheight/tformsvg.k)) * .90 ;
-    //console.log("zoomFit2() = ", scale);
+    var scale =  2.7; // (SVGfullHeight / (Gheight/tformsvg.k)) * .90 ;
 
-
-    // y translation - center G in <svg> y plane
     // get svg mid point
-    var svgMidY = SVGfullHeight/2;
-    ////var gYtrans = svgMidY - ((Gheight/tformsvg.k)/2); 
-
-    //console.log("svg_g.top", bounds.top);
-    //console.log("svg_g.height", bounds.height);
-   //console.log("svg.height", SVGfullHeight);
-
-    ////var topSVGmargin = (SVGfullHeight - bounds.height)  / 2;
-    var tform_y = svgMidY;// + (Gheight/tformsvg.k)/2 ; //-(topSVGmargin - bounds.top - margin.top);
-
-    scale = 2;
+    var svgMidY = SVGfullHeight; ///1.2;
 
     var localSVG = d3.select("svg#msvg");
     localSVG.call(zoom.transform, 
                 d3.zoomIdentity
-                 .translate(margin.left, tform_y)
+                 .translate(margin.left, svgMidY)
                  .scale(scale));
 
     return scale;
@@ -676,10 +654,10 @@ function appAbout()
 {
 
     var html = 
-    "Managed Object Browser for Cisco APIC<br>\
+    "APIC Managed Object Browser<br>\
      Version 1.0<br>\
-     Written by <a href='mailto:simon.birtles@haystacknetworks.com' target='_top'>Simon Birtles @ Haystack Networks UK</a><br>\
-     Copyright (c) 2016-2017, Haystack Networks Ltd, UK - <a href='http://www.haystacknetworks.co.uk' target='_top'>http://www.haystacknetworks.co.uk</a><br>\
+     Written by <a href='mailto:simon.birtles@haystacknetworks.com' target='_top'>Simon Birtles @ Haystack Networks Ltd, UK </a><br>\
+     Copyright (c) 2016-2017, Haystack Networks Ltd, UK <a href='www.haystacknetworks.com' target='_top'>www.haystacknetworks.com</a><br>\
      All rights reserved.<br>\
      Dual licensed under the MIT and GPL licenses.";
 

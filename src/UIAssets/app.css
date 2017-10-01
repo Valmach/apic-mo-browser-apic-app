@@ -6,6 +6,8 @@ html, body {
     margin:0;
     padding:0;
     overflow: hidden; /*for tooltip div*/
+    font-family:'Arial';
+    font-size: 13px;
     }
 
 .svg-container { /* div containing tree SVG */
@@ -49,12 +51,12 @@ html, body {
     }
 
 .text-nodeclassname {
-    font: 12px sans-serif;
+    font: 10px sans-serif;
     visibility: visible;  
     }
 
 .text-nodelabel {
-    font: 12px sans-serif;
+    font: 10px sans-serif;
     visibility: visible;
     }
 
@@ -125,7 +127,7 @@ div.tooltip {
     background-color: #555; /* fill */
     color: #fff;   /* text color*/
     padding: 8px 9px;
-    font-family:'Lucida Console';
+    /*font-family:'Lucida Console';*/
     font-size: 12px;
     white-space:nowrap;
 }
@@ -201,7 +203,7 @@ div.tooltip {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s; */
-    font-family:'Lucida Console';
+    /*font-family:'Lucida Console';*/
 }
 
 /* Add Animation */
@@ -337,7 +339,7 @@ td.value{
     top: 1px;
     z-index: 190;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family:'Lucida Console';
+    /*font-family:'Lucida Console';*/
     overflow: none;
 }
 
@@ -425,7 +427,7 @@ td.obj-prop-value{
     top: 50%; */
     z-index: 190;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family:'Lucida Console';
+    /*font-family:'Lucida Console';*/
 }
 
                         /***** Dialog Header *****/
@@ -555,7 +557,7 @@ td.root-node-value{
     bottom: 1px;
     z-index: 190;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family:'Lucida Console';
+    /*font-family:'Lucida Console';*/
     overflow: none;
 }
 
@@ -656,7 +658,7 @@ td.root-node-value{
     top: 140px;
     z-index: 190;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family:'Lucida Console';
+    /*font-family:'Lucida Console';*/
     overflow: none;
 }
 
