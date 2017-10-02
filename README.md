@@ -10,4 +10,4 @@ For example; when I create the package on Ubuntu, i use the following command wh
 
 Notes:
 1. Make sure you use the Github "clone or download" button, attempting to download the .aci file by using right click, save link as, causes the file to be unusable.
-2. When the application is installed and enabled on the APIC, you may been to browse away from the Apps tab and back again before the applicartion open button will work - seems to be an APIC issue.
+2. When the application is installed and enabled on the APIC, you may need to browse away from the Apps tab and back again before the applicartion open button will work - seems to be an APIC issue.
