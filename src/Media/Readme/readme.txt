@@ -1,24 +1,15 @@
-# Author : Haystack Networks Ltd 
-#        : www.haystacknetworks.com
-#
-# Copyright 2017 Haystack Networks Ltd, UK
-# All rights reserved.
-#
-# Redistribution and use in source and binary forms, with or without modification,
-# are permitted provided that the following conditions are met:
-#
-#    * Redistributions of source code must retain the above copyright
-#      notice, this list of conditions and the following disclaimer.
-#    * Redistributions in binary form must reproduce the above copyright notice,
-#      this list of conditions and the following disclaimer in the documentation
-#      and/or other materials provided with the distribution.
-#
-# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-# IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-# LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-# USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This is a stateless application for browsing the ACI Managed Object (MO) tree as implemented by APIC configuration.
+
+The App allows the user to browse the MO tree much like Visore but in an graphical form showing links between parents and children, but also relationship objects and fault counts for each object with color coding based on the most critical active fault type for an MO.
+
+The App allows access to all ‘root’s with the common ones being polUni and fabricTopology. This is a full view of all MO’s implemented in the APIC and can be used to:
+
+* Troubleshoot where configuration objects have been missed, the browser makes it easy to follow a path in the tree to find broken links in the MO chain. 
+
+* For building scripts, this allows full insight into the information model and provides links to the specific page in the MIM on the Cisco website. 
+
+* To gain a better understanding of how the APIC manages the configuration.
+
+* Provides query filter abilities therefore providing a graphical MOQuery type tool.
+
+Full documentation can be found at: https://haystacknetworks.com/cisco-apic-managed-object-browser
