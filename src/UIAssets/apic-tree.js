@@ -659,7 +659,8 @@ function appAbout()
      Written by <a href='mailto:simon.birtles@haystacknetworks.com' target='_top'>Simon Birtles @ Haystack Networks Ltd, UK </a><br>\
      Copyright (c) 2016-2017, Haystack Networks Ltd, UK <a href='https://www.haystacknetworks.com' target='_blank'>www.haystacknetworks.com</a><br>\
      All rights reserved.<br>\
-     Dual licensed under the MIT and GPL licenses.";
+     Dual licensed under the MIT and GPL licenses.<br>\
+     <a href='https://haystacknetworks.com/cisco-apic-managed-object-browser' target='_blank'>Application Documentation</a>";
 
     if(!bMessageWindowShown)
     {
