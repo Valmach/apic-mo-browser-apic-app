@@ -8,9 +8,11 @@
     ],
     "contact":{
         "contact-email":"aciappcenter-support@haystacknetworks.com",
+        "contact-phone":"+442038838666",
         "contact-url":"http://www.haystacknetworks.com"
     },
     "iconfile":"icon.png",
+    "metaversion":"1.1",
     "name":"APIC Managed Object Browser",
     "permissions":[
         "admin"

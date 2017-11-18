@@ -1,0 +1,634 @@
+2017-10-19 00:11:06,136 DEBUG root(347) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path=None, validate_only=False)
+2017-10-19 00:11:06,136 DEBUG root(348) scriptDir: /haystacknetworks/cisco_aci_app_packager-1.0/packager
+2017-10-19 00:11:06,136 DEBUG packager(349) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-10-19 00:11:06,136  INFO packager(206) Running Packager Utility
+2017-10-19 00:11:06,137  INFO packager(207) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-10-19 00:11:06,137  INFO packager(208) Input path to private key: None
+2017-10-19 00:11:06,137  INFO packager(272) App state is: stateless
+2017-10-19 00:11:06,138  INFO packager(55) Validation of mandatory files and directories successful
+2017-10-19 00:11:06,138  INFO validator(778) Retrieving app meta data
+2017-10-19 00:11:06,139  INFO validator(867) Meta data retrieved successfully
+2017-10-19 00:11:06,139  INFO packager(55) Retrieving app meta data successful
+2017-10-19 00:11:06,139  INFO validator(1408) Validating app meta data
+2017-10-19 00:11:06,140  INFO validator(871) Validating author
+2017-10-19 00:11:06,141  INFO validator(881) Author validation successful
+2017-10-19 00:11:06,142  INFO validator(942) Validating category
+2017-10-19 00:11:06,142  INFO validator(962) Category validation successful
+2017-10-19 00:11:06,142  INFO validator(1025) Validating appid
+2017-10-19 00:11:06,143  INFO validator(1042) Appid validation successful
+2017-10-19 00:11:06,144  INFO validator(1071) Validating app version
+2017-10-19 00:11:06,144  INFO validator(1106) App version validation successful
+2017-10-19 00:11:06,145  INFO validator(1223) Validating icon file
+2017-10-19 00:11:06,145  INFO validator(1255) Icon file validation successful
+2017-10-19 00:11:06,145  INFO validator(1260) Validating app Name
+2017-10-19 00:11:06,145  INFO validator(1270) App name validation successful
+2017-10-19 00:11:06,145  INFO validator(1275) Validating short description
+2017-10-19 00:11:06,146  INFO validator(1285) Short description validation successful
+2017-10-19 00:11:06,146  INFO validator(1290) Validating app vendor
+2017-10-19 00:11:06,146  INFO validator(1300) App vendor validation successful
+2017-10-19 00:11:06,146  INFO validator(1380) Validating app media files
+2017-10-19 00:11:06,146  INFO validator(1401) App media files validation successful
+2017-10-19 00:11:06,147  INFO validator(1111) Validating apic version
+2017-10-19 00:11:06,147  INFO validator(1147) Apic version validation successful
+2017-10-19 00:11:06,147  INFO validator(916) Validating app permission
+2017-10-19 00:11:06,148  INFO validator(938) App permission validation successful
+2017-10-19 00:11:06,148  INFO validator(1047) Validating vendordomain
+2017-10-19 00:11:06,148  INFO validator(1065) Vendordomain validation successful
+2017-10-19 00:11:06,148  INFO validator(1437) Validating app meta data successful
+2017-10-19 00:11:06,149  INFO packager(55) Validation of app meta data successful
+2017-10-19 00:11:06,149  INFO packager(300) Copying app folders into the package
+2017-10-19 00:11:06,150  INFO packager(142) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:11:06,150  INFO packager(146) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-10-19 00:11:06,159  INFO packager(305) Successfully copied folders into the package
+2017-10-19 00:11:06,159  INFO packager(308) Checking if private key exists in the specified path
+2017-10-19 00:11:06,159  INFO packager(315) Compressing the package into .aci file
+2017-10-19 00:11:06,233  INFO packager(320) Compressing of app files and folders successful
+2017-10-19 00:11:06,233  INFO packager(324) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:11:06,234  INFO packager(55) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:11:16,452 DEBUG root(347) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path=None, validate_only=False)
+2017-10-19 00:11:16,453 DEBUG root(348) scriptDir: /haystacknetworks/cisco_aci_app_packager-1.0/packager
+2017-10-19 00:11:16,453 DEBUG packager(349) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-10-19 00:11:16,453  INFO packager(206) Running Packager Utility
+2017-10-19 00:11:16,454  INFO packager(207) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-10-19 00:11:16,454  INFO packager(208) Input path to private key: None
+2017-10-19 00:11:16,454  INFO packager(272) App state is: stateless
+2017-10-19 00:11:16,456  INFO packager(55) Validation of mandatory files and directories successful
+2017-10-19 00:11:16,456  INFO validator(778) Retrieving app meta data
+2017-10-19 00:11:16,457  INFO validator(867) Meta data retrieved successfully
+2017-10-19 00:11:16,457  INFO packager(55) Retrieving app meta data successful
+2017-10-19 00:11:16,458  INFO validator(1408) Validating app meta data
+2017-10-19 00:11:16,458  INFO validator(871) Validating author
+2017-10-19 00:11:16,459  INFO validator(881) Author validation successful
+2017-10-19 00:11:16,459  INFO validator(942) Validating category
+2017-10-19 00:11:16,460  INFO validator(962) Category validation successful
+2017-10-19 00:11:16,460  INFO validator(1025) Validating appid
+2017-10-19 00:11:16,460  INFO validator(1042) Appid validation successful
+2017-10-19 00:11:16,460  INFO validator(1071) Validating app version
+2017-10-19 00:11:16,460  INFO validator(1106) App version validation successful
+2017-10-19 00:11:16,460  INFO validator(1223) Validating icon file
+2017-10-19 00:11:16,461  INFO validator(1255) Icon file validation successful
+2017-10-19 00:11:16,461  INFO validator(1260) Validating app Name
+2017-10-19 00:11:16,462  INFO validator(1270) App name validation successful
+2017-10-19 00:11:16,462  INFO validator(1275) Validating short description
+2017-10-19 00:11:16,462  INFO validator(1285) Short description validation successful
+2017-10-19 00:11:16,462  INFO validator(1290) Validating app vendor
+2017-10-19 00:11:16,462  INFO validator(1300) App vendor validation successful
+2017-10-19 00:11:16,462  INFO validator(1380) Validating app media files
+2017-10-19 00:11:16,463  INFO validator(1401) App media files validation successful
+2017-10-19 00:11:16,463  INFO validator(1111) Validating apic version
+2017-10-19 00:11:16,463  INFO validator(1147) Apic version validation successful
+2017-10-19 00:11:16,463  INFO validator(916) Validating app permission
+2017-10-19 00:11:16,463  INFO validator(938) App permission validation successful
+2017-10-19 00:11:16,463  INFO validator(1047) Validating vendordomain
+2017-10-19 00:11:16,464  INFO validator(1065) Vendordomain validation successful
+2017-10-19 00:11:16,464  INFO validator(1437) Validating app meta data successful
+2017-10-19 00:11:16,464  INFO packager(55) Validation of app meta data successful
+2017-10-19 00:11:16,464  INFO packager(300) Copying app folders into the package
+2017-10-19 00:11:16,464  INFO packager(142) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:11:16,465  INFO packager(146) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-10-19 00:11:16,475  INFO packager(305) Successfully copied folders into the package
+2017-10-19 00:11:16,475  INFO packager(308) Checking if private key exists in the specified path
+2017-10-19 00:11:16,475  INFO packager(315) Compressing the package into .aci file
+2017-10-19 00:11:16,546  INFO packager(320) Compressing of app files and folders successful
+2017-10-19 00:11:16,546  INFO packager(324) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:11:16,547  INFO packager(55) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:12:39,745 DEBUG root(347) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-10-19 00:12:39,746 DEBUG root(348) scriptDir: /haystacknetworks/cisco_aci_app_packager-1.0/packager
+2017-10-19 00:12:39,746 DEBUG packager(349) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-10-19 00:12:39,746  INFO packager(206) Running Packager Utility
+2017-10-19 00:12:39,746  INFO packager(207) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-10-19 00:12:39,746  INFO packager(208) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-10-19 00:12:39,747  INFO packager(272) App state is: stateless
+2017-10-19 00:12:39,748  INFO packager(55) Validation of mandatory files and directories successful
+2017-10-19 00:12:39,748  INFO validator(778) Retrieving app meta data
+2017-10-19 00:12:39,748  INFO validator(867) Meta data retrieved successfully
+2017-10-19 00:12:39,750  INFO packager(55) Retrieving app meta data successful
+2017-10-19 00:12:39,754  INFO validator(1408) Validating app meta data
+2017-10-19 00:12:39,754  INFO validator(871) Validating author
+2017-10-19 00:12:39,754  INFO validator(881) Author validation successful
+2017-10-19 00:12:39,754  INFO validator(942) Validating category
+2017-10-19 00:12:39,754  INFO validator(962) Category validation successful
+2017-10-19 00:12:39,754  INFO validator(1025) Validating appid
+2017-10-19 00:12:39,755  INFO validator(1042) Appid validation successful
+2017-10-19 00:12:39,755  INFO validator(1071) Validating app version
+2017-10-19 00:12:39,755  INFO validator(1106) App version validation successful
+2017-10-19 00:12:39,755  INFO validator(1223) Validating icon file
+2017-10-19 00:12:39,755  INFO validator(1255) Icon file validation successful
+2017-10-19 00:12:39,755  INFO validator(1260) Validating app Name
+2017-10-19 00:12:39,755  INFO validator(1270) App name validation successful
+2017-10-19 00:12:39,755  INFO validator(1275) Validating short description
+2017-10-19 00:12:39,755  INFO validator(1285) Short description validation successful
+2017-10-19 00:12:39,755  INFO validator(1290) Validating app vendor
+2017-10-19 00:12:39,756  INFO validator(1300) App vendor validation successful
+2017-10-19 00:12:39,756  INFO validator(1380) Validating app media files
+2017-10-19 00:12:39,756  INFO validator(1401) App media files validation successful
+2017-10-19 00:12:39,756  INFO validator(1111) Validating apic version
+2017-10-19 00:12:39,756  INFO validator(1147) Apic version validation successful
+2017-10-19 00:12:39,756  INFO validator(916) Validating app permission
+2017-10-19 00:12:39,757  INFO validator(938) App permission validation successful
+2017-10-19 00:12:39,757  INFO validator(1047) Validating vendordomain
+2017-10-19 00:12:39,757  INFO validator(1065) Vendordomain validation successful
+2017-10-19 00:12:39,757  INFO validator(1437) Validating app meta data successful
+2017-10-19 00:12:39,757  INFO packager(55) Validation of app meta data successful
+2017-10-19 00:12:39,757  INFO packager(300) Copying app folders into the package
+2017-10-19 00:12:39,757  INFO packager(142) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:12:39,757  INFO packager(146) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-10-19 00:12:39,765  INFO packager(305) Successfully copied folders into the package
+2017-10-19 00:12:39,766  INFO packager(308) Checking if private key exists in the specified path
+2017-10-19 00:12:39,766  INFO packager(310) Private key file present in specified directory
+2017-10-19 00:12:39,766  INFO packager(76) Calulating hash of app folder
+2017-10-19 00:12:39,769  INFO packager(79) Successfully calculated hash, value is: -3296938033988823028
+2017-10-19 00:12:39,781  INFO packager(95) Creating signature file HaystackNetworks_ACIModelBrowser.dev.signature inside package
+2017-10-19 00:12:39,781  INFO packager(110) Successfully generated signature 15265106988020387860208800193748861706116914601433175972193497924642655672067760225309162277218722600463171744563068374557970221083400399853844089320309773723662588630637856824340194890773424586355441405949966853610179886736541890236398208887591986951722165013077657857227938650389997783480919521163874339365355044722777497777128637604154960046892998820162142947177629549821455362143756819616414330245798653762545202150901914253530787563295430197228067730200030132529931553823815345868007941069750165731805412619529560154360147913591663352778963972901859450356783052152158072387693022004928358860489928713637137709802
+2017-10-19 00:12:39,782  INFO packager(315) Compressing the package into .aci file
+2017-10-19 00:12:39,856  INFO packager(320) Compressing of app files and folders successful
+2017-10-19 00:12:39,856  INFO packager(324) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-19 00:12:39,857  INFO packager(55) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-20 09:44:23,579 DEBUG root(347) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-10-20 09:44:23,581 DEBUG root(348) scriptDir: /haystacknetworks/cisco_aci_app_packager-1.0/packager
+2017-10-20 09:44:23,581 DEBUG packager(349) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-10-20 09:44:23,581  INFO packager(206) Running Packager Utility
+2017-10-20 09:44:23,581  INFO packager(207) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-10-20 09:44:23,582  INFO packager(208) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-10-20 09:44:23,583  INFO packager(272) App state is: stateless
+2017-10-20 09:44:23,585  INFO packager(55) Validation of mandatory files and directories successful
+2017-10-20 09:44:23,585  INFO validator(778) Retrieving app meta data
+2017-10-20 09:44:23,586  INFO validator(867) Meta data retrieved successfully
+2017-10-20 09:44:23,586  INFO packager(55) Retrieving app meta data successful
+2017-10-20 09:44:23,586  INFO validator(1408) Validating app meta data
+2017-10-20 09:44:23,587  INFO validator(871) Validating author
+2017-10-20 09:44:23,587  INFO validator(881) Author validation successful
+2017-10-20 09:44:23,587  INFO validator(942) Validating category
+2017-10-20 09:44:23,587  INFO validator(962) Category validation successful
+2017-10-20 09:44:23,587  INFO validator(1025) Validating appid
+2017-10-20 09:44:23,589  INFO validator(1042) Appid validation successful
+2017-10-20 09:44:23,590  INFO validator(1071) Validating app version
+2017-10-20 09:44:23,590  INFO validator(1106) App version validation successful
+2017-10-20 09:44:23,590  INFO validator(1223) Validating icon file
+2017-10-20 09:44:23,594  INFO validator(1255) Icon file validation successful
+2017-10-20 09:44:23,594  INFO validator(1260) Validating app Name
+2017-10-20 09:44:23,595  INFO validator(1270) App name validation successful
+2017-10-20 09:44:23,595  INFO validator(1275) Validating short description
+2017-10-20 09:44:23,595  INFO validator(1285) Short description validation successful
+2017-10-20 09:44:23,595  INFO validator(1290) Validating app vendor
+2017-10-20 09:44:23,595  INFO validator(1300) App vendor validation successful
+2017-10-20 09:44:23,595  INFO validator(1380) Validating app media files
+2017-10-20 09:44:23,596  INFO validator(1401) App media files validation successful
+2017-10-20 09:44:23,596  INFO validator(1111) Validating apic version
+2017-10-20 09:44:23,597  INFO validator(1147) Apic version validation successful
+2017-10-20 09:44:23,597  INFO validator(916) Validating app permission
+2017-10-20 09:44:23,597  INFO validator(938) App permission validation successful
+2017-10-20 09:44:23,597  INFO validator(1047) Validating vendordomain
+2017-10-20 09:44:23,597  INFO validator(1065) Vendordomain validation successful
+2017-10-20 09:44:23,598  INFO validator(1437) Validating app meta data successful
+2017-10-20 09:44:23,598  INFO packager(55) Validation of app meta data successful
+2017-10-20 09:44:23,598  INFO packager(300) Copying app folders into the package
+2017-10-20 09:44:23,598  INFO packager(142) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-20 09:44:23,599  INFO packager(146) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-10-20 09:44:23,630  INFO packager(305) Successfully copied folders into the package
+2017-10-20 09:44:23,631  INFO packager(308) Checking if private key exists in the specified path
+2017-10-20 09:44:23,631  INFO packager(310) Private key file present in specified directory
+2017-10-20 09:44:23,631  INFO packager(76) Calulating hash of app folder
+2017-10-20 09:44:23,635  INFO packager(79) Successfully calculated hash, value is: -3296938033988823028
+2017-10-20 09:44:23,650  INFO packager(95) Creating signature file HaystackNetworks_ACIModelBrowser.dev.signature inside package
+2017-10-20 09:44:23,651  INFO packager(110) Successfully generated signature 5360300671903597008730582412055549093539269056486149803118356641240299477785246296123351598763938162631753604905910988906058644097936763605601126275863371378056290551737738320950400331448011676073198291738055351016074201021208898438912192045635031265551537543937255139827624122071600698101818801176854228544181356771608509663947565705774293782861256691662347414045120741925973788289052315960760675597295371992969423791405486387602824175644196261567404091959440211224213532512994571162429792613889866206486532586939615503184782870853359252785971977914941201014220297218797917492695412832997212327329059830439122665938
+2017-10-20 09:44:23,651  INFO packager(315) Compressing the package into .aci file
+2017-10-20 09:44:23,712  INFO packager(320) Compressing of app files and folders successful
+2017-10-20 09:44:23,712  INFO packager(324) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-10-20 09:44:23,713  INFO packager(55) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-07 07:56:20,097 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 07:56:20,098 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 07:56:20,099 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 07:56:20,099  INFO packager(216) Running Packager Utility
+2017-11-07 07:56:20,099  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 07:56:20,099  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 07:56:20,101  INFO packager(282) App state is: stateless
+2017-11-07 07:56:20,101  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 07:56:20,101  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 07:56:20,130 ERROR validator(794) Error occurred: 121 Required IntroVideo directory not found inside /Media
+2017-11-07 07:56:20,130 ERROR packager(61) Validation of mandatory files and directories failed
+2017-11-07 07:56:20,131 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 07:57:26,811 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 07:57:26,812 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 07:57:26,812 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 07:57:26,812  INFO packager(216) Running Packager Utility
+2017-11-07 07:57:26,812  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 07:57:26,812  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 07:57:26,813  INFO packager(282) App state is: stateless
+2017-11-07 07:57:26,813  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 07:57:26,813  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 07:57:26,833 ERROR validator(772) Error occurred: 120 A video file of type .mp4 should be present inside IntroVideo directory
+2017-11-07 07:57:26,834 ERROR packager(61) Validation of mandatory files and directories failed
+2017-11-07 07:57:26,834 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:10:28,554 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 08:10:28,554 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 08:10:28,554 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 08:10:28,554  INFO packager(216) Running Packager Utility
+2017-11-07 08:10:28,554  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:10:28,554  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 08:10:28,555  INFO packager(282) App state is: stateless
+2017-11-07 08:10:28,555  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 08:10:28,555  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 08:10:28,567 ERROR validator(787) Error occurred: 122 novideo.mp4 is not valid mp4 file, the file needs to have some video content
+2017-11-07 08:10:28,568 ERROR packager(61) Validation of mandatory files and directories failed
+2017-11-07 08:10:28,569 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:13:26,397 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 08:13:26,397 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 08:13:26,397 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 08:13:26,398  INFO packager(216) Running Packager Utility
+2017-11-07 08:13:26,398  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:13:26,398  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 08:13:26,398  INFO packager(282) App state is: stateless
+2017-11-07 08:13:26,398  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 08:13:26,398  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 08:13:26,420 ERROR validator(835) Error occurred: 123 Required Snapshots directory inside /Media
+2017-11-07 08:13:26,421 ERROR packager(61) Validation of mandatory files and directories failed
+2017-11-07 08:13:26,421 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:13:50,837 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 08:13:50,838 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 08:13:50,838 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 08:13:50,838  INFO packager(216) Running Packager Utility
+2017-11-07 08:13:50,838  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:13:50,838  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 08:13:50,839  INFO packager(282) App state is: stateless
+2017-11-07 08:13:50,839  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 08:13:50,839  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 08:13:50,860 ERROR validator(811) Error occurred: 123 Snapshots should contain atleast 1 file of type .jpg or .gif or .png
+2017-11-07 08:13:50,861 ERROR packager(61) Validation of mandatory files and directories failed
+2017-11-07 08:13:50,863 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:14:41,659 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 08:14:41,659 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 08:14:41,659 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 08:14:41,659  INFO packager(216) Running Packager Utility
+2017-11-07 08:14:41,659  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:14:41,659  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 08:14:41,659  INFO packager(282) App state is: stateless
+2017-11-07 08:14:41,660  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 08:14:41,660  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 08:14:41,678 ERROR validator(817) Error occurred: 123 Snapshots should only contain files of type .jpg or .gif or .png
+2017-11-07 08:14:41,678 ERROR packager(61) Validation of mandatory files and directories failed
+2017-11-07 08:14:41,679 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:15:04,133 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 08:15:04,133 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 08:15:04,133 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 08:15:04,133  INFO packager(216) Running Packager Utility
+2017-11-07 08:15:04,133  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:15:04,133  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 08:15:04,134  INFO packager(282) App state is: stateless
+2017-11-07 08:15:04,134  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 08:15:04,134  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 08:15:04,152  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-07 08:15:04,152  INFO validator(848) Retrieving app meta data
+2017-11-07 08:15:04,153  INFO validator(937) Meta data retrieved successfully
+2017-11-07 08:15:04,153  INFO packager(57) Retrieving app meta data successful
+2017-11-07 08:15:04,153  INFO validator(1542) Validating app meta data
+2017-11-07 08:15:04,153  INFO validator(941) Validating author
+2017-11-07 08:15:04,153  INFO validator(951) Author validation successful
+2017-11-07 08:15:04,153  INFO validator(1025) Validating category
+2017-11-07 08:15:04,153  INFO validator(1045) Category validation successful
+2017-11-07 08:15:04,153  INFO validator(1145) Validating appid
+2017-11-07 08:15:04,153  INFO validator(1162) Appid validation successful
+2017-11-07 08:15:04,153  INFO validator(1191) Validating app version
+2017-11-07 08:15:04,153  INFO validator(1226) App version validation successful
+2017-11-07 08:15:04,153  INFO validator(1343) Validating icon file
+2017-11-07 08:15:04,155  INFO validator(1375) Icon file validation successful
+2017-11-07 08:15:04,155  INFO validator(1380) Validating app Name
+2017-11-07 08:15:04,155  INFO validator(1390) App name validation successful
+2017-11-07 08:15:04,156  INFO validator(1395) Validating short description
+2017-11-07 08:15:04,156  INFO validator(1405) Short description validation successful
+2017-11-07 08:15:04,156  INFO validator(1410) Validating app vendor
+2017-11-07 08:15:04,156  INFO validator(1420) App vendor validation successful
+2017-11-07 08:15:04,156  INFO validator(1510) Validating app media files
+2017-11-07 08:15:04,162  INFO validator(1534) App media files validation successful
+2017-11-07 08:15:04,162  INFO validator(1231) Validating apic version
+2017-11-07 08:15:04,163  INFO validator(1267) Apic version validation successful
+2017-11-07 08:15:04,163  INFO validator(1050) Validating contact email field
+2017-11-07 08:15:04,164  INFO validator(1071) Contact field email validation successful
+2017-11-07 08:15:04,164  INFO validator(1078) Validating contact phone
+2017-11-07 08:15:04,164  INFO validator(1086) Error occurred: 22 contact-phone field missing inside contact in JSON file
+2017-11-07 08:15:04,165 ERROR packager(61) Validation of app meta data failed
+2017-11-07 08:15:04,165 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:16:59,138 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-07 08:16:59,138 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-07 08:16:59,138 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-07 08:16:59,139  INFO packager(216) Running Packager Utility
+2017-11-07 08:16:59,139  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-07 08:16:59,139  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-07 08:16:59,140  INFO packager(282) App state is: stateless
+2017-11-07 08:16:59,140  INFO packager(284) Current metaversion is: 1.1
+2017-11-07 08:16:59,140  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-07 08:16:59,161  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-07 08:16:59,161  INFO validator(848) Retrieving app meta data
+2017-11-07 08:16:59,162  INFO validator(937) Meta data retrieved successfully
+2017-11-07 08:16:59,163  INFO packager(57) Retrieving app meta data successful
+2017-11-07 08:16:59,163  INFO validator(1542) Validating app meta data
+2017-11-07 08:16:59,163  INFO validator(941) Validating author
+2017-11-07 08:16:59,163  INFO validator(951) Author validation successful
+2017-11-07 08:16:59,163  INFO validator(1025) Validating category
+2017-11-07 08:16:59,163  INFO validator(1045) Category validation successful
+2017-11-07 08:16:59,163  INFO validator(1145) Validating appid
+2017-11-07 08:16:59,164  INFO validator(1162) Appid validation successful
+2017-11-07 08:16:59,164  INFO validator(1191) Validating app version
+2017-11-07 08:16:59,164  INFO validator(1226) App version validation successful
+2017-11-07 08:16:59,164  INFO validator(1343) Validating icon file
+2017-11-07 08:16:59,164  INFO validator(1375) Icon file validation successful
+2017-11-07 08:16:59,164  INFO validator(1380) Validating app Name
+2017-11-07 08:16:59,164  INFO validator(1390) App name validation successful
+2017-11-07 08:16:59,165  INFO validator(1395) Validating short description
+2017-11-07 08:16:59,165  INFO validator(1405) Short description validation successful
+2017-11-07 08:16:59,165  INFO validator(1410) Validating app vendor
+2017-11-07 08:16:59,165  INFO validator(1420) App vendor validation successful
+2017-11-07 08:16:59,165  INFO validator(1510) Validating app media files
+2017-11-07 08:16:59,165  INFO validator(1534) App media files validation successful
+2017-11-07 08:16:59,166  INFO validator(1231) Validating apic version
+2017-11-07 08:16:59,167  INFO validator(1267) Apic version validation successful
+2017-11-07 08:16:59,167  INFO validator(1050) Validating contact email field
+2017-11-07 08:16:59,168  INFO validator(1071) Contact field email validation successful
+2017-11-07 08:16:59,168  INFO validator(1078) Validating contact phone
+2017-11-07 08:16:59,168  INFO validator(1093) Error occurred: 22 contact-phone cannot be empty, please provide a valid phone number
+2017-11-07 08:16:59,169 ERROR packager(61) Validation of app meta data failed
+2017-11-07 08:16:59,169 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-17 21:08:31,060 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-17 21:08:31,062 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-17 21:08:31,062 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-17 21:08:31,062  INFO packager(216) Running Packager Utility
+2017-11-17 21:08:31,062  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-17 21:08:31,062  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-17 21:08:31,064  INFO packager(282) App state is: stateless
+2017-11-17 21:08:31,064  INFO packager(284) Current metaversion is: 1.1
+2017-11-17 21:08:31,064  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-17 21:08:31,094  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-17 21:08:31,094  INFO validator(848) Retrieving app meta data
+2017-11-17 21:08:31,095  INFO validator(937) Meta data retrieved successfully
+2017-11-17 21:08:31,095  INFO packager(57) Retrieving app meta data successful
+2017-11-17 21:08:31,095  INFO validator(1542) Validating app meta data
+2017-11-17 21:08:31,096  INFO validator(941) Validating author
+2017-11-17 21:08:31,096  INFO validator(951) Author validation successful
+2017-11-17 21:08:31,096  INFO validator(1025) Validating category
+2017-11-17 21:08:31,096  INFO validator(1045) Category validation successful
+2017-11-17 21:08:31,096  INFO validator(1145) Validating appid
+2017-11-17 21:08:31,096  INFO validator(1162) Appid validation successful
+2017-11-17 21:08:31,096  INFO validator(1191) Validating app version
+2017-11-17 21:08:31,096  INFO validator(1226) App version validation successful
+2017-11-17 21:08:31,096  INFO validator(1343) Validating icon file
+2017-11-17 21:08:31,098  INFO validator(1375) Icon file validation successful
+2017-11-17 21:08:31,098  INFO validator(1380) Validating app Name
+2017-11-17 21:08:31,098  INFO validator(1390) App name validation successful
+2017-11-17 21:08:31,098  INFO validator(1395) Validating short description
+2017-11-17 21:08:31,098  INFO validator(1405) Short description validation successful
+2017-11-17 21:08:31,098  INFO validator(1410) Validating app vendor
+2017-11-17 21:08:31,098  INFO validator(1420) App vendor validation successful
+2017-11-17 21:08:31,099  INFO validator(1510) Validating app media files
+2017-11-17 21:08:31,099  INFO validator(1534) App media files validation successful
+2017-11-17 21:08:31,100  INFO validator(1231) Validating apic version
+2017-11-17 21:08:31,100  INFO validator(1267) Apic version validation successful
+2017-11-17 21:08:31,100  INFO validator(1050) Validating contact email field
+2017-11-17 21:08:31,100  INFO validator(1071) Contact field email validation successful
+2017-11-17 21:08:31,100  INFO validator(1078) Validating contact phone
+2017-11-17 21:08:31,100  INFO validator(1109) Error occurred: 22 Invalid contact-phone, please provide 10 digit phone number
+2017-11-17 21:08:31,101 ERROR packager(61) Validation of app meta data failed
+2017-11-17 21:08:31,102 ERROR packager(61) Error: Failed to package app - /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-17 21:09:57,912 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-17 21:09:57,912 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-17 21:09:57,912 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-17 21:09:57,912  INFO packager(216) Running Packager Utility
+2017-11-17 21:09:57,912  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-17 21:09:57,912  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-17 21:09:57,913  INFO packager(282) App state is: stateless
+2017-11-17 21:09:57,913  INFO packager(284) Current metaversion is: 1.1
+2017-11-17 21:09:57,913  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-17 21:09:57,933  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-17 21:09:57,933  INFO validator(848) Retrieving app meta data
+2017-11-17 21:09:57,933  INFO validator(937) Meta data retrieved successfully
+2017-11-17 21:09:57,933  INFO packager(57) Retrieving app meta data successful
+2017-11-17 21:09:57,934  INFO validator(1542) Validating app meta data
+2017-11-17 21:09:57,934  INFO validator(941) Validating author
+2017-11-17 21:09:57,934  INFO validator(951) Author validation successful
+2017-11-17 21:09:57,934  INFO validator(1025) Validating category
+2017-11-17 21:09:57,934  INFO validator(1045) Category validation successful
+2017-11-17 21:09:57,934  INFO validator(1145) Validating appid
+2017-11-17 21:09:57,934  INFO validator(1162) Appid validation successful
+2017-11-17 21:09:57,934  INFO validator(1191) Validating app version
+2017-11-17 21:09:57,934  INFO validator(1226) App version validation successful
+2017-11-17 21:09:57,934  INFO validator(1343) Validating icon file
+2017-11-17 21:09:57,935  INFO validator(1375) Icon file validation successful
+2017-11-17 21:09:57,935  INFO validator(1380) Validating app Name
+2017-11-17 21:09:57,935  INFO validator(1390) App name validation successful
+2017-11-17 21:09:57,935  INFO validator(1395) Validating short description
+2017-11-17 21:09:57,935  INFO validator(1405) Short description validation successful
+2017-11-17 21:09:57,935  INFO validator(1410) Validating app vendor
+2017-11-17 21:09:57,935  INFO validator(1420) App vendor validation successful
+2017-11-17 21:09:57,935  INFO validator(1510) Validating app media files
+2017-11-17 21:09:57,936  INFO validator(1534) App media files validation successful
+2017-11-17 21:09:57,936  INFO validator(1231) Validating apic version
+2017-11-17 21:09:57,936  INFO validator(1267) Apic version validation successful
+2017-11-17 21:09:57,936  INFO validator(1050) Validating contact email field
+2017-11-17 21:09:57,936  INFO validator(1071) Contact field email validation successful
+2017-11-17 21:09:57,936  INFO validator(1078) Validating contact phone
+2017-11-17 21:09:57,936  INFO validator(1113) Contact phone field validation successful
+2017-11-17 21:09:57,937  INFO validator(1117) Validating contact url
+2017-11-17 21:09:57,937  INFO validator(1139) Contact URL field validation successful
+2017-11-17 21:09:57,937  INFO validator(999) Validating app permission
+2017-11-17 21:09:57,937  INFO validator(1021) App permission validation successful
+2017-11-17 21:09:57,937  INFO validator(1167) Validating vendordomain
+2017-11-17 21:09:57,937  INFO validator(1185) Vendordomain validation successful
+2017-11-17 21:09:57,937  INFO validator(1576) Validating app meta data successful
+2017-11-17 21:09:57,937  INFO packager(57) Validation of app meta data successful
+2017-11-17 21:09:57,937  INFO packager(327) Copying app folders into the package
+2017-11-17 21:09:57,938  INFO packager(144) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-17 21:09:57,938  INFO packager(148) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-11-17 21:09:57,961  INFO packager(332) Successfully copied folders into the package
+2017-11-17 21:09:57,961  INFO packager(335) Checking if private key exists in the specified path
+2017-11-17 21:09:57,962  INFO packager(337) Private key file present in specified directory
+2017-11-17 21:09:57,962  INFO packager(78) Calulating hash of app folder
+2017-11-17 21:09:57,966  INFO packager(81) Successfully calculated hash, value is: -2565835277930322164
+2017-11-17 21:09:57,971  INFO packager(97) Creating signature file HaystackNetworks_ACIModelBrowser.dev.signature inside package
+2017-11-17 21:09:57,972  INFO packager(112) Successfully generated signature 8450154602288495021334961365631727036034613350542877900962000672332928382482383965799147132437315915644937748644239343782604462518062913847707568374620026202304890887045977675990764875926362805881654919624230861567459612447286799522225606831540024650599837304286973164089124134266294638837173967643804090035265431739480672503026700976534345976554126459670315884162248144306828681755524634417720321544257969600199617505112569879657877037692911181003255904638186875296375240340061881964929181170646856853349693180941722818604174088941335459983062365654514493517995851620605246087543611059928234331134108097026970635525
+2017-11-17 21:09:57,972  INFO packager(342) Compressing the package into .aci file
+2017-11-17 21:09:57,975  INFO packager(177) File /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci already exists... Removing the existing file 
+2017-11-17 21:09:58,072  INFO packager(347) Compressing of app files and folders successful
+2017-11-17 21:09:58,073  INFO packager(351) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-17 21:09:58,074  INFO packager(57) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-17 21:29:33,478 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-17 21:29:33,478 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-17 21:29:33,478 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-17 21:29:33,478  INFO packager(216) Running Packager Utility
+2017-11-17 21:29:33,478  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-17 21:29:33,478  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-17 21:29:33,479  INFO packager(282) App state is: stateless
+2017-11-17 21:29:33,479  INFO packager(284) Current metaversion is: 1.1
+2017-11-17 21:29:33,479  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-17 21:29:33,501  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-17 21:29:33,501  INFO validator(848) Retrieving app meta data
+2017-11-17 21:29:33,501  INFO validator(937) Meta data retrieved successfully
+2017-11-17 21:29:33,501  INFO packager(57) Retrieving app meta data successful
+2017-11-17 21:29:33,501  INFO validator(1542) Validating app meta data
+2017-11-17 21:29:33,501  INFO validator(941) Validating author
+2017-11-17 21:29:33,501  INFO validator(951) Author validation successful
+2017-11-17 21:29:33,502  INFO validator(1025) Validating category
+2017-11-17 21:29:33,502  INFO validator(1045) Category validation successful
+2017-11-17 21:29:33,502  INFO validator(1145) Validating appid
+2017-11-17 21:29:33,502  INFO validator(1162) Appid validation successful
+2017-11-17 21:29:33,502  INFO validator(1191) Validating app version
+2017-11-17 21:29:33,502  INFO validator(1226) App version validation successful
+2017-11-17 21:29:33,502  INFO validator(1343) Validating icon file
+2017-11-17 21:29:33,502  INFO validator(1375) Icon file validation successful
+2017-11-17 21:29:33,502  INFO validator(1380) Validating app Name
+2017-11-17 21:29:33,502  INFO validator(1390) App name validation successful
+2017-11-17 21:29:33,502  INFO validator(1395) Validating short description
+2017-11-17 21:29:33,502  INFO validator(1405) Short description validation successful
+2017-11-17 21:29:33,502  INFO validator(1410) Validating app vendor
+2017-11-17 21:29:33,502  INFO validator(1420) App vendor validation successful
+2017-11-17 21:29:33,502  INFO validator(1510) Validating app media files
+2017-11-17 21:29:33,503  INFO validator(1534) App media files validation successful
+2017-11-17 21:29:33,503  INFO validator(1231) Validating apic version
+2017-11-17 21:29:33,503  INFO validator(1267) Apic version validation successful
+2017-11-17 21:29:33,503  INFO validator(1050) Validating contact email field
+2017-11-17 21:29:33,503  INFO validator(1071) Contact field email validation successful
+2017-11-17 21:29:33,503  INFO validator(1078) Validating contact phone
+2017-11-17 21:29:33,503  INFO validator(1113) Contact phone field validation successful
+2017-11-17 21:29:33,503  INFO validator(1117) Validating contact url
+2017-11-17 21:29:33,503  INFO validator(1139) Contact URL field validation successful
+2017-11-17 21:29:33,503  INFO validator(999) Validating app permission
+2017-11-17 21:29:33,503  INFO validator(1021) App permission validation successful
+2017-11-17 21:29:33,503  INFO validator(1167) Validating vendordomain
+2017-11-17 21:29:33,503  INFO validator(1185) Vendordomain validation successful
+2017-11-17 21:29:33,503  INFO validator(1576) Validating app meta data successful
+2017-11-17 21:29:33,504  INFO packager(57) Validation of app meta data successful
+2017-11-17 21:29:33,504  INFO packager(327) Copying app folders into the package
+2017-11-17 21:29:33,504  INFO packager(144) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-17 21:29:33,504  INFO packager(148) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-11-17 21:29:33,512  INFO packager(332) Successfully copied folders into the package
+2017-11-17 21:29:33,512  INFO packager(335) Checking if private key exists in the specified path
+2017-11-17 21:29:33,512  INFO packager(337) Private key file present in specified directory
+2017-11-17 21:29:33,512  INFO packager(78) Calulating hash of app folder
+2017-11-17 21:29:33,517  INFO packager(81) Successfully calculated hash, value is: 8571762696728008207
+2017-11-17 21:29:33,520  INFO packager(97) Creating signature file HaystackNetworks_ACIModelBrowser.dev.signature inside package
+2017-11-17 21:29:33,521  INFO packager(112) Successfully generated signature 14561361287500931952580412686812577101888221268203554165686482824763454958748798290125804517575647973370768282619986985749165283065274915444443508206927244818262529175581729205618248882959660312628683408010376150009187469802654085455210514455576851245864470601721522815646727143437009812760965375269447473278902756872686105557930981043847867124653008043859525211575034942702315398382098867194386784366188607948020646717833777534288245068969129928273766807349574187540834944219528262190498764431116328244869313211676896073321325319315740017780408939915915698971504220283998805163479204028953228523290688930334801171202
+2017-11-17 21:29:33,521  INFO packager(342) Compressing the package into .aci file
+2017-11-17 21:29:33,523  INFO packager(177) File /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci already exists... Removing the existing file 
+2017-11-17 21:29:33,575  INFO packager(347) Compressing of app files and folders successful
+2017-11-17 21:29:33,575  INFO packager(351) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-17 21:29:33,577  INFO packager(57) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-18 10:25:24,260 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-18 10:25:24,261 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-18 10:25:24,261 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-18 10:25:24,261  INFO packager(216) Running Packager Utility
+2017-11-18 10:25:24,261  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-18 10:25:24,261  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-18 10:25:24,262  INFO packager(282) App state is: stateless
+2017-11-18 10:25:24,262  INFO packager(284) Current metaversion is: 1.1
+2017-11-18 10:25:24,262  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-18 10:25:24,281  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-18 10:25:24,281  INFO validator(848) Retrieving app meta data
+2017-11-18 10:25:24,281  INFO validator(937) Meta data retrieved successfully
+2017-11-18 10:25:24,281  INFO packager(57) Retrieving app meta data successful
+2017-11-18 10:25:24,282  INFO validator(1542) Validating app meta data
+2017-11-18 10:25:24,282  INFO validator(941) Validating author
+2017-11-18 10:25:24,282  INFO validator(951) Author validation successful
+2017-11-18 10:25:24,282  INFO validator(1025) Validating category
+2017-11-18 10:25:24,282  INFO validator(1045) Category validation successful
+2017-11-18 10:25:24,282  INFO validator(1145) Validating appid
+2017-11-18 10:25:24,282  INFO validator(1162) Appid validation successful
+2017-11-18 10:25:24,282  INFO validator(1191) Validating app version
+2017-11-18 10:25:24,282  INFO validator(1226) App version validation successful
+2017-11-18 10:25:24,282  INFO validator(1343) Validating icon file
+2017-11-18 10:25:24,283  INFO validator(1375) Icon file validation successful
+2017-11-18 10:25:24,283  INFO validator(1380) Validating app Name
+2017-11-18 10:25:24,283  INFO validator(1390) App name validation successful
+2017-11-18 10:25:24,284  INFO validator(1395) Validating short description
+2017-11-18 10:25:24,284  INFO validator(1405) Short description validation successful
+2017-11-18 10:25:24,284  INFO validator(1410) Validating app vendor
+2017-11-18 10:25:24,284  INFO validator(1420) App vendor validation successful
+2017-11-18 10:25:24,284  INFO validator(1510) Validating app media files
+2017-11-18 10:25:24,284  INFO validator(1534) App media files validation successful
+2017-11-18 10:25:24,284  INFO validator(1231) Validating apic version
+2017-11-18 10:25:24,284  INFO validator(1267) Apic version validation successful
+2017-11-18 10:25:24,285  INFO validator(1050) Validating contact email field
+2017-11-18 10:25:24,285  INFO validator(1071) Contact field email validation successful
+2017-11-18 10:25:24,285  INFO validator(1078) Validating contact phone
+2017-11-18 10:25:24,285  INFO validator(1113) Contact phone field validation successful
+2017-11-18 10:25:24,285  INFO validator(1117) Validating contact url
+2017-11-18 10:25:24,285  INFO validator(1139) Contact URL field validation successful
+2017-11-18 10:25:24,285  INFO validator(999) Validating app permission
+2017-11-18 10:25:24,285  INFO validator(1021) App permission validation successful
+2017-11-18 10:25:24,285  INFO validator(1167) Validating vendordomain
+2017-11-18 10:25:24,285  INFO validator(1185) Vendordomain validation successful
+2017-11-18 10:25:24,286  INFO validator(1576) Validating app meta data successful
+2017-11-18 10:25:24,286  INFO packager(57) Validation of app meta data successful
+2017-11-18 10:25:24,286  INFO packager(327) Copying app folders into the package
+2017-11-18 10:25:24,286  INFO packager(144) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-18 10:25:24,286  INFO packager(148) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-11-18 10:25:24,467  INFO packager(332) Successfully copied folders into the package
+2017-11-18 10:25:24,467  INFO packager(335) Checking if private key exists in the specified path
+2017-11-18 10:25:24,467  INFO packager(337) Private key file present in specified directory
+2017-11-18 10:25:24,467  INFO packager(78) Calulating hash of app folder
+2017-11-18 10:25:24,613  INFO packager(81) Successfully calculated hash, value is: -7768104537249924060
+2017-11-18 10:25:24,617  INFO packager(97) Creating signature file HaystackNetworks_ACIModelBrowser.dev.signature inside package
+2017-11-18 10:25:24,617  INFO packager(112) Successfully generated signature 4153496671449701719109050802221510764497874779180727533694219558335700470879779487736771617335676802457737145082658045813562663106414837581941928920640172818400365930141499883800331641294663623956835944589634741733088331702777444972159450539547870943294514454186673039285087284157355657541207891638277139570182845393606791543769103503117806006525265143413201161173101449058694627808710186219174781544232066849502162522826632336081538302689822093135368400046578214112884903577760936137578812686851963873264363674565163120006429485546383068750558967735175771741251691004381092093331005621586830988539863430704682255100
+2017-11-18 10:25:24,617  INFO packager(342) Compressing the package into .aci file
+2017-11-18 10:25:24,619  INFO packager(177) File /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci already exists... Removing the existing file 
+2017-11-18 10:25:26,543  INFO packager(347) Compressing of app files and folders successful
+2017-11-18 10:25:26,543  INFO packager(351) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-18 10:25:26,548  INFO packager(57) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-18 10:42:19,045 DEBUG root(374) args: Namespace(file_path='/haystacknetworks/apic-mo-browser-apic-app/src', logfile='./aci_app_packager.log', private_key_path='/haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem', validate_only=False)
+2017-11-18 10:42:19,045 DEBUG root(375) scriptDir: /haystacknetworks/cisco_aci_app_tools-1.1/tools
+2017-11-18 10:42:19,045 DEBUG packager(376) outputDir: /haystacknetworks/apic-mo-browser-apic-app
+2017-11-18 10:42:19,045  INFO packager(216) Running Packager Utility
+2017-11-18 10:42:19,045  INFO packager(217) Input path to app directory: /haystacknetworks/apic-mo-browser-apic-app/src
+2017-11-18 10:42:19,045  INFO packager(218) Input path to private key: /haystacknetworks/apic-mo-browser-apic-app/ssl_priv.pem
+2017-11-18 10:42:19,045  INFO packager(282) App state is: stateless
+2017-11-18 10:42:19,045  INFO packager(284) Current metaversion is: 1.1
+2017-11-18 10:42:19,046  INFO validator(420) Metaversion for validation set to 1.1
+2017-11-18 10:42:19,220  INFO packager(57) Validation of mandatory files and directories successful
+2017-11-18 10:42:19,220  INFO validator(848) Retrieving app meta data
+2017-11-18 10:42:19,221  INFO validator(937) Meta data retrieved successfully
+2017-11-18 10:42:19,221  INFO packager(57) Retrieving app meta data successful
+2017-11-18 10:42:19,221  INFO validator(1542) Validating app meta data
+2017-11-18 10:42:19,221  INFO validator(941) Validating author
+2017-11-18 10:42:19,222  INFO validator(951) Author validation successful
+2017-11-18 10:42:19,222  INFO validator(1025) Validating category
+2017-11-18 10:42:19,222  INFO validator(1045) Category validation successful
+2017-11-18 10:42:19,222  INFO validator(1145) Validating appid
+2017-11-18 10:42:19,222  INFO validator(1162) Appid validation successful
+2017-11-18 10:42:19,222  INFO validator(1191) Validating app version
+2017-11-18 10:42:19,222  INFO validator(1226) App version validation successful
+2017-11-18 10:42:19,222  INFO validator(1343) Validating icon file
+2017-11-18 10:42:19,304  INFO validator(1375) Icon file validation successful
+2017-11-18 10:42:19,304  INFO validator(1380) Validating app Name
+2017-11-18 10:42:19,305  INFO validator(1390) App name validation successful
+2017-11-18 10:42:19,305  INFO validator(1395) Validating short description
+2017-11-18 10:42:19,305  INFO validator(1405) Short description validation successful
+2017-11-18 10:42:19,305  INFO validator(1410) Validating app vendor
+2017-11-18 10:42:19,305  INFO validator(1420) App vendor validation successful
+2017-11-18 10:42:19,305  INFO validator(1510) Validating app media files
+2017-11-18 10:42:19,306  INFO validator(1534) App media files validation successful
+2017-11-18 10:42:19,306  INFO validator(1231) Validating apic version
+2017-11-18 10:42:19,306  INFO validator(1267) Apic version validation successful
+2017-11-18 10:42:19,306  INFO validator(1050) Validating contact email field
+2017-11-18 10:42:19,307  INFO validator(1071) Contact field email validation successful
+2017-11-18 10:42:19,307  INFO validator(1078) Validating contact phone
+2017-11-18 10:42:19,307  INFO validator(1113) Contact phone field validation successful
+2017-11-18 10:42:19,307  INFO validator(1117) Validating contact url
+2017-11-18 10:42:19,307  INFO validator(1139) Contact URL field validation successful
+2017-11-18 10:42:19,307  INFO validator(999) Validating app permission
+2017-11-18 10:42:19,307  INFO validator(1021) App permission validation successful
+2017-11-18 10:42:19,307  INFO validator(1167) Validating vendordomain
+2017-11-18 10:42:19,307  INFO validator(1185) Vendordomain validation successful
+2017-11-18 10:42:19,307  INFO validator(1576) Validating app meta data successful
+2017-11-18 10:42:19,308  INFO packager(57) Validation of app meta data successful
+2017-11-18 10:42:19,308  INFO packager(327) Copying app folders into the package
+2017-11-18 10:42:19,308  INFO packager(144) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-18 10:42:19,309  INFO packager(148) Creating directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci/HaystackNetworks_ACIModelBrowser
+2017-11-18 10:42:19,386  INFO packager(332) Successfully copied folders into the package
+2017-11-18 10:42:19,386  INFO packager(335) Checking if private key exists in the specified path
+2017-11-18 10:42:19,386  INFO packager(337) Private key file present in specified directory
+2017-11-18 10:42:19,386  INFO packager(78) Calulating hash of app folder
+2017-11-18 10:42:19,461  INFO packager(81) Successfully calculated hash, value is: 3472985475952117895
+2017-11-18 10:42:19,464  INFO packager(97) Creating signature file HaystackNetworks_ACIModelBrowser.dev.signature inside package
+2017-11-18 10:42:19,464  INFO packager(112) Successfully generated signature 6620598205634403665719302677008290227166573352523459207354503441857828725309268532511974141458546244237891896139103809601239165808973002438312061499336521065386892274096688206243030492456614829498008676875923721557047555664027735681977617183453052913928870769294522727294853926776215362538462817913968719777057908546124461109147800294500040615288961117879115325738165328743356006523420774021931996146603887376053846790470908803795222639560910357272967219483586183549238634817144415922872323086836040521626587279059363799353394810266672964479814759766822799843092394213337566565858409452538774882157477036041824460556
+2017-11-18 10:42:19,464  INFO packager(342) Compressing the package into .aci file
+2017-11-18 10:42:19,469  INFO packager(177) File /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci already exists... Removing the existing file 
+2017-11-18 10:42:21,683  INFO packager(347) Compressing of app files and folders successful
+2017-11-18 10:42:21,683  INFO packager(351) Cleaning up temp directory /haystacknetworks/apic-mo-browser-apic-app/src/HaystackNetworks-ACIModelBrowser-1.0.aci
+2017-11-18 10:42:21,687  INFO packager(57) App successfully packaged - /haystacknetworks/apic-mo-browser-apic-app/HaystackNetworks-ACIModelBrowser-1.0.aci
